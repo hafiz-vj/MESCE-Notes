@@ -1,0 +1,7 @@
+#header-text--0 .bg {
+    background-image: url('../img/cover1.jpg');
+    background-repeat: Repeat;
+    background-position: center bottom;
+    background-size: cover;
+    opacity:0.25;
+}
