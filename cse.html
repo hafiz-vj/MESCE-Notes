@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>MESCE Notes-CSE</title>
+		
+<link rel="icon" href="img/SFI_Logo_Light.png" type="image/x-icon">
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="stylesheet" href="css/bootstrap.weber.css" />
+		<link rel="stylesheet" href="css/fx.css" />
+		<link rel="stylesheet" href="css/custom.css" />
+		<link rel="stylesheet" href="css/innerpage.css" />
+		<link rel="stylesheet" href="css/preloader.css" />
+		
+	</head>
+    <body class="dark-page">
+	<div id="preloader"><div class="circles"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div></div>
+		<div id="wrap">
+			<nav id="nav-megamenu-logo-social" class="navbar dark navbar-expand-lg sticky-top shadow fixed-top">
+    			<div class="container">
+        			<div class="row align-items-center">
+            			<div class="col col-lg-2 order-lg-2 text-lg-center">
+                			<a class="navbar-brand" href="index.html">
+                    			<img src="img/MESCENotes.png" alt="" class="mw-100" srcset="" width="150">
+                			</a>
+            			</div>
+           			<div class="col-auto hidden-lg">
+                			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target=".main-menu-collapse" aria-controls="navbarMenuContent" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            			</div>
+            			<div class="col-lg-5 order-lg-1 navbar-collapse main-menu-collapse position-inherit collapse" style="">
+                			<ul class="navbar-nav">
+                    
+                    
+                    
+                    
+                			</ul>
+            			</div>
+            			<div class="col-lg-5 order-lg-3 navbar-collapse main-menu-collapse justify-content-lg-end collapse" style="">
+                			<div class="d-inline-block inline-group">
+                    
+                    			<a href="https://www.facebook.com/sfimesce" class="smooth" target="_self"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-default"><path d="m8.54611842 16h-7.66304125c-.48785295 0-.88307717-.3954695-.88307717-.8831324v-14.23379728c0-.48778708.3952863-.88307032.88307717-.88307032h14.23390773c.4876667 0 .8830151.39528324.8830151.88307032v14.23379728c0 .487725-.3954105.8831324-.8830151.8831324h-4.0772165v-6.19608178h2.0797387l.3114113-2.41472301h-2.39115v-1.54164808c0-.69911803.1941355-1.1755439 1.1966615-1.1755439l1.2786739-.00055875v-2.15974763c-.2211418-.0294274-.980176-.09517343-1.8632531-.09517343-1.84357263 0-3.10573228 1.12531866-3.10573228 3.19187953v1.78079226h-2.08507782v2.41472301h2.08507782z" fill="#4460a0" fill-rule="evenodd" class=""></path></svg></a>
+                    
+                    			<a href="https://www.instagram.com/sfimesce" class="smooth" target="_self"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon svg-default"><radialGradient id="a" cx="1.163903%" cy="98.836097%" r="139.775349%"><stop offset="0" stop-color="#ffc800"></stop><stop offset=".486454468" stop-color="#ff2a7b"></stop><stop offset="1" stop-color="#a000bc"></stop></radialGradient><path d="m8.00001588 0c2.17265372 0 2.44508882.00920925 3.29837392.04814217.8515067.03883765 1.4330552.17408667 1.9419142.37186335.5260707.20441369.9722115.47796031 1.4169867.92270379.4447435.44477523.7182901.89091598.9227355 1.41698671.197745.50885894.332994 1.09040748.3718316 1.94191421.0389329.85328506.0481422 1.12572022.0481422 3.29840565 0 2.17265372-.0092093 2.44508882-.0481422 3.29837392-.0388376.8515067-.1740866 1.4330552-.3718316 1.9419142-.2044454.5260707-.477992.9722115-.9227355 1.4169867-.4447752.4447435-.890916.7182901-1.4169867.9227355-.508859.197745-1.0904075.332994-1.9419142.3718316-.8532851.0389329-1.1257202.0481422-3.29837392.0481422-2.17268543 0-2.44512059-.0092093-3.29840565-.0481422-.85150673-.0388376-1.43305527-.1740866-1.94191421-.3718316-.52607073-.2044454-.97221148-.477992-1.41698671-.9227355-.44474348-.4447752-.7182901-.890916-.92270379-1.4169867-.19777668-.508859-.3330257-1.0904075-.37186335-1.9419142-.03893292-.8532851-.04814217-1.1257202-.04814217-3.29837392 0-2.17268543.00920925-2.44512059.04814217-3.29840565.03883765-.85150673.17408667-1.43305527.37186335-1.94191421.20441369-.52607073.47796031-.97221148.92270379-1.41698671.44477523-.44474348.89091598-.7182901 1.41698671-.92270379.50885894-.19777668 1.09040748-.3330257 1.94191421-.37186335.85328506-.03893292 1.12572022-.04814217 3.29840565-.04814217zm0 1.44143887c-2.13610246 0-2.38913467.0081613-3.23270238.04664963-.7799921.03556678-1.20358605.16589361-1.48548451.27545198-.37341939.14512515-.63991616.31848143-.91984575.59844276-.27996133.27992959-.45331761.54642636-.59844276.91984575-.10955837.28189846-.2398852.70549241-.27545198 1.48548451-.03848833.84356771-.04664963 1.09659992-.04664963 3.23270238 0 2.13607072.0081613 2.38910292.04664963 3.23267062.03556678.7799921.16589361 1.2035861.27545198 1.4854845.14512515.3734194.31851318.6399162.59844276.9198458.27992959.2799613.54642636.4533176.91984575.5984427.28189846.1095584.70549241.2398852 1.48548451.275452.84347244.0384883 1.09644114.0466496 3.23270238.0466496 2.13622952 0 2.38922992-.0081613 3.23267062-.0466496.7799921-.0355668 1.2035861-.1658936 1.4854845-.275452.3734194-.1451251.6399162-.3184814.9198458-.5984427.2799613-.2799296.4533176-.5464264.5984427-.9198458.1095584-.2818984.2398852-.7054924.275452-1.4854845.0384883-.8435677.0466496-1.0965999.0466496-3.23267062 0-2.13610246-.0081613-2.38913467-.0466496-3.23270238-.0355668-.7799921-.1658936-1.20358605-.275452-1.48548451-.1451251-.37341939-.3184814-.63991616-.5984427-.91984575-.2799296-.27996133-.5464264-.45331761-.9198458-.59844276-.2818984-.10955837-.7054924-.2398852-1.4854845-.27545198-.8435677-.03848833-1.0965999-.04664963-3.23267062-.04664963zm0 2.4504556c2.26884272 0 4.10808962 1.8392469 4.10808962 4.10812141 0 2.26884272-1.8392469 4.10808962-4.10808962 4.10808962-2.26887451 0-4.10812141-1.8392469-4.10812141-4.10808962 0-2.26887451 1.8392469-4.10812141 4.10812141-4.10812141zm0 6.77477223c1.47275033 0 2.66665082-1.19390049 2.66665082-2.66665082 0-1.47278209-1.19390049-2.66668255-2.66665082-2.66668255-1.47278209 0-2.66668255 1.19390046-2.66668255 2.66668255 0 1.47275033 1.19390046 2.66665082 2.66668255 2.66665082zm5.23041202-6.9370774c0 .53019901-.4298182.95998539-.9600172.95998539-.5301673 0-.9599854-.42978638-.9599854-.95998539 0-.53019902.4298181-.96001715.9599854-.96001715.530199 0 .9600172.42981813.9600172.96001715z" fill="url(#a)" fill-rule="evenodd"></path></svg></a>
+                    
+                			</div>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</nav>
+			
+			<header id="header-text" class="pt-50 pb-25 pt-lg-50 pb-lg-50 text-center dark">
+				
+    			<div class="container"><h3 align="center" style="color: dimgray">CSE</h3>
+        			<div class="row">
+            	
+					<div class="col-12" style="z-index: 10;"> <a data-toggle="collapse" href="#Sem3" role="button" aria-expanded="false" aria-controls="Sem3" class="btn btn-lg dark fx-btn-pill fx-btn-zoom btn-danger fx-btn-shadow fx-btn-wave" style="overflow: visible;"><strong>Semester 3</strong></a> 
+					    <div class="collapse" id="Sem3">
+						  <section id="desc-accordion" class="pt-100 pb-100 light">
+    						<div class="container">
+        					<div class="row">
+            				<div class="col-12">
+                			<div class="accordion" id="desc_accordion_0-accordion" data-children=".content-box">
+                    			<div class="content-box shadow bg-default mb-20">
+                        			<a class="padding-x2 d-block light" data-toggle="collapse" href="#desc_accordion_0--0" data-parent="#desc_accordion_0-accordion" aria-expanded="false" aria-controls="desc_accordion_0--0"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z" class=""></path></svg><strong class="">DCS</strong></a>
+                        			<div id="desc_accordion_0--0" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=1pzODEqgpVf_7ZLrCG6zXy4VcALvjkFA2">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1pzODEqgpVf_7ZLrCG6zXy4VcALvjkFA2">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1pzODEqgpVf_7ZLrCG6zXy4VcALvjkFA2">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1pzODEqgpVf_7ZLrCG6zXy4VcALvjkFA2">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1pzODEqgpVf_7ZLrCG6zXy4VcALvjkFA2">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1pzODEqgpVf_7ZLrCG6zXy4VcALvjkFA2">Module 6</a></li>
+											</ul>
+                                
+                            			</div>
+                        			</div>
+                    			</div>
+                   			 	<div class="content-box shadow bg-default mb-20">
+                        			<a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion_0--1" data-parent="#desc_accordion_0-accordion" aria-expanded="false" aria-controls="desc_accordion_0--1"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">STLD</strong></a>
+                        			<div id="desc_accordion_0--1" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+											<ul>
+												<li><a href="https://drive.google.com/open?id=11vbIxbBr1ttWpI9gG50XwX8MOZFS1TTi">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=129B_O9Y_DQRBLmXjcrcxAIZUcEgh7Gbm">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=129B_O9Y_DQRBLmXjcrcxAIZUcEgh7Gbm">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=129B_O9Y_DQRBLmXjcrcxAIZUcEgh7Gbm">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=12Ao9nU_oZ2ciuloW6Kfr2xlCj_I0tYs9">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=11qwdUTnjW8n2PafXBQnhqlIyNh1Vy4om">Module 6</a></li>
+												<li><a href="https://drive.google.com/open?id=1YieXWByTdJoETetm5ZWwh8YirsHcAaat">Miscellaneous</a></li>
+											</ul>
+
+                           			  </div>
+                        			</div>
+                    			</div>
+                    			<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion_0--2" data-parent="#desc_accordion_0-accordion" aria-expanded="false" aria-controls="desc_accordion_0--2"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">DS</strong></a>
+                        			<div id="desc_accordion_0--2" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/file/d/1-v6gHfoRljPgoxuph5EgEIYJi7mUycwD/view?usp=drivesdk">Module 1</a></li>
+												<li><a href="https://drive.google.com/file/d/1-tBv069jFzSpEVw1YgHlDd7KKSuptBPz/view?usp=drivesdk">Module 2</a></li>
+												<li><a href="https://drive.google.com/file/d/1-qyLix-XOQIfN1eO5Pno3cvRwR9NvT4o/view?usp=drivesdk">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1-uy2XLXHljTe-muGlqWcsOTav4fltjW9">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1-qyLix-XOQIfN1eO5Pno3cvRwR9NvT4o">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1-qyLix-XOQIfN1eO5Pno3cvRwR9NvT4o">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion_0--3" data-parent="#desc_accordion_0-accordion" aria-expanded="false" aria-controls="desc_accordion_0--3"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">EDC</strong></a>
+                        			<div id="desc_accordion_0--3" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/folderview?id=109-PPm7a41lv9nqDsIrt4yVmK2vNeeGT">Module 1</a></li>
+												<li><a href="https://drive.google.com/folderview?id=109jpzCyT9UbHro_pxdflXM2ptZj0XaF5">Module 2</a></li>
+												<li><a href="https://drive.google.com/folderview?id=10BOImvlRUh5BbycqVT_szpysUpx0xyhb">Module 3</a></li>
+												<li><a href="https://drive.google.com/folderview?id=10D8KvLw3-dWAdMaeqwPfR0wqI1F-nlvq">Module 4</a></li>
+												<li><a href="https://drive.google.com/folderview?id=10F_0eFoxblINJ4MmUkrjdLgzW9GlzuLB">Module 5</a></li>
+												<li><a href="https://drive.google.com/folderview?id=10J9nIiJ2BV1g_bLYlnM31SOKzpzKqIsT">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion_0--4" data-parent="#desc_accordion_0-accordion" aria-expanded="false" aria-controls="desc_accordion_0--4"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">LACA</strong></a>
+                        			<div id="desc_accordion_0--4" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/file/d/11p0VMJXvik1Xabnw-DTQUK5reEUILcQW/view?usp=drivesdk">Module 1</a></li>
+												<li><a href="https://drive.google.com/file/d/11nsHvNpT_hAYDzhFGujZeZz1VgTqnjBM/view?usp=drivesdk">Module 2</a></li>
+												<li><a href="https://drive.google.com/file/d/11nsHvNpT_hAYDzhFGujZeZz1VgTqnjBM/view?usp=drivesdk">Module 3</a></li>
+												<li><a href="https://drive.google.com/file/d/11nQbPawELZPqy2t0UKzZIwA0_fj_lgXn/view?usp=drivesdk">Module 4</a></li>
+												<li><a href="https://drive.google.com/file/d/11oftscyB24Y2BCKiJqwKjALmP4J2ilds/view?usp=drivesdk">Module 5</a></li>
+												<li><a href="https://drive.google.com/file/d/11oftscyB24Y2BCKiJqwKjALmP4J2ilds/view?usp=drivesdk">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion_0--5" data-parent="#desc_accordion_0-accordion" aria-expanded="false" aria-controls="desc_accordion_0--5"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">ECONOMICS</strong></a>
+                        			<div id="desc_accordion_0--5" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="#">Module 1</a></li>
+												<li><a href="#">Module 2</a></li>
+												<li><a href="#">Module 3</a></li>
+												<li><a href="#">Module 4</a></li>
+												<li><a href="#">Module 5</a></li>
+												<li><a href="#">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+                			</div>
+            			 	</div>
+        					</div>
+    						</div>
+    						<div class="bg-wrap">
+        					<div class="bg"></div>
+    						</div>
+							</section>
+							</div> </div>&nbsp;
+					<div class="col-12" style="z-index: 10;"> <a data-toggle="collapse" href="#Sem4" role="button" aria-expanded="false" aria-controls="Sem4" class="btn btn-lg dark fx-btn-pill fx-btn-zoom btn-danger fx-btn-shadow fx-btn-wave" style="overflow: visible;"><strong>Semester 4</strong></a> 
+					    <div class="collapse" id="Sem4">
+						  <section id="desc-accordion4" class="pt-100 pb-100 light">
+    						<div class="container">
+        					<div class="row">
+            				<div class="col-12">
+                			<div class="accordion" id="desc_accordion4_0-accordion" data-children=".content-box">
+                    			<div class="content-box shadow bg-default mb-20">
+                        			<a class="padding-x2 d-block light" data-toggle="collapse" href="#desc_accordion4_0--0" data-parent="#desc_accordion4_0-accordion" aria-expanded="false" aria-controls="desc_accordion4_0--0"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z" class=""></path></svg><strong class="">COA</strong></a>
+                        			<div id="desc_accordion4_0--0" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=1JLbbAuJw8hR7SAO3neJVNOWgQGwcSLS6">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1puWY_zqI09FmziC6ZU2RAevxmx0Lq4Wd">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1_g-aSfviV4n493PA3UTP2Cmt39WW1KnO">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1Jv-_N_e60_ZXNfHKpfdNrdafUoV0OEUd">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1Y7PCk82rUluW2DNrtMGUDLy_Xac3pntr">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1j9MNgSJTvJkfBYyD2S31Oqc8ossBuMqb">Module 6</a></li>
+											</ul>
+                                
+                            			</div>
+                        			</div>
+                    			</div>
+                   			 	<div class="content-box shadow bg-default mb-20">
+                        			<a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion4_0--1" data-parent="#desc_accordion4_0-accordion" aria-expanded="false" aria-controls="desc_accordion4_0--1"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">OS</strong></a>
+                        			<div id="desc_accordion4_0--1" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+											<ul>
+												<li><a href="https://drive.google.com/open?id=163V4EtOB7q0i6Xc_GnEiRqyUsau4mLt4">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=14yqsubCEUCV8YSQhS7neN8i-HzaFgwiH">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=166c-ERqpZsgXChPHu0CPaYVsC9T6F8x6">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=16B7YlNdDDd2WiL8yQ0w6wQDgERv_De4o">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1ObscttbXvx7wzUblAZhk0t5aTXX6aXIK">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=17jMtBQehQ3L1e76i55yG2T2L2DvMyqaq">Module 6</a></li>
+												<li><a href="https://drive.google.com/open?id=11a8np7BpYoe_MMydC_upEE9-7f0MJnV2">Miscellaneous</a></li>
+											</ul>
+
+                           			  </div>
+                        			</div>
+                    			</div>
+                    			<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion4_0--2" data-parent="#desc_accordion4_0-accordion" aria-expanded="false" aria-controls="desc_accordion4_0--2"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">OODP</strong></a>
+                        			<div id="desc_accordion4_0--2" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=1526bK0ig3H9m-gynMkpgFqWOXSYtzcrP">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=15CIj-YughTBCgColn89Nk5RkYwdT7RTh">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=15EZaeWCe5y1croFRpMm9IXnHQxYL_Xc8">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=15yfry6QpYfVYxOXt28T2e2hsqFaA6c-K">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=15xhAhqI1jB-3gy30aF9-MkVkfgXhuImb">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=161RXIy6VpCGkbPoyS-YIl15Ou8veSExv">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion4_0--3" data-parent="#desc_accordion4_0-accordion" aria-expanded="false" aria-controls="desc_accordion4_0--3"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">PDD</strong></a>
+                        			<div id="desc_accordion4_0--3" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=18gHp27LCz_1pldnhNZsvHyTNuiXkI5VG">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=18laV7lGkQfCU7glVh1NSL3V4XjBfMrdB">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=18jT5uSsHRLRxKWrX5olKLBd__VuTE-MS">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=18hIG38Z6QsTxzLoRHZSxmAzvHZ5yTRVM">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=19pE3M2_wOUqSElbc9Dpqh2PbO7HkHvWV">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=19_zxqSuiTThUzi3zwk8ckpxDcyC3p0bd">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion4_0--4" data-parent="#desc_accordion4_0-accordion" aria-expanded="false" aria-controls="desc_accordion4_0--4"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">M4</strong></a>
+                        			<div id="desc_accordion4_0--4" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=1nzFZ-1yIjrVDjQ4cwayuCGk5aS8uauG7">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1b6BbzZwGR4g0ZKy8MlDWWpwkBhHXRX6t">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1qsxG2XkyukqSSnKy0g7GPYoo_2Q46MyQ">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1qsxG2XkyukqSSnKy0g7GPYoo_2Q46MyQ">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1el5ADtaRUJF5fi3IHFGtTQ5NBvrXisp8">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1el5ADtaRUJF5fi3IHFGtTQ5NBvrXisp8">Module 6</a></li>
+												<li><a href="https://drive.google.com/open?id=1aV0K8UvPYTFVrzaHXV04h9ecsae8VlYo">Miscellaneous</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion4_0--5" data-parent="#desc_accordion4_0-accordion" aria-expanded="false" aria-controls="desc_accordion4_0--5"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">LIFE SKILLS</strong></a>
+                        			<div id="desc_accordion4_0--5" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=14NgdnB5L90QG9fJt2DXTq_XzpqzvP8Mf">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=14EPlcVite_VxTKgs4jQgeaKlP7Z51gKq">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=14TbTIaBoulRTbMnTzdN5-D7G6EilyAEZ">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=14LoZI5ij25oR161V-jPoynxk17QbxxlL">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=14MXry_EfK515HGHRzSk_4swil3n2i76s">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=14MXry_EfK515HGHRzSk_4swil3n2i76s">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+                			</div>
+            			 	</div>
+        					</div>
+    						</div>
+    						<div class="bg-wrap">
+        					<div class="bg"></div>
+    						</div>
+							</section>
+							</div> </div>&nbsp;
+					<div class="col-12" style="z-index: 10;"> <a data-toggle="collapse" href="#Sem5" role="button" aria-expanded="false" aria-controls="Sem5" class="btn btn-lg dark fx-btn-pill fx-btn-zoom btn-danger fx-btn-shadow fx-btn-wave" style="overflow: visible;"><strong>Semester 5</strong></a> 
+					    <div class="collapse" id="Sem5">
+						  <section id="desc-accordion5" class="pt-100 pb-100 light">
+    						<div class="container">
+        					<div class="row">
+            				<div class="col-12">
+                			<div class="accordion" id="desc_accordion5_0-accordion" data-children=".content-box">
+                    			<div class="content-box shadow bg-default mb-20">
+                        			<a class="padding-x2 d-block light" data-toggle="collapse" href="#desc_accordion5_0--0" data-parent="#desc_accordion5_0-accordion" aria-expanded="false" aria-controls="desc_accordion5_0--0"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z" class=""></path></svg><strong class="">TOC</strong></a>
+                        			<div id="desc_accordion5_0--0" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=12n8RP9XJircmv_961_o_zO3lkSsjNtmE">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=12EfMKs8_O2cWC4uayi-TwhgggwIvETa_">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=12k0dQ9-603VmzomkGYpfb9nBfEL-T-aQ">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=12aT5Gqkbr1VnzO2CuCXoaQWjSQg5fjkE">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=12MmETriT9VtZoxPRjjD0RWKW9m6gLisy">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=12cHFlioCZgTwB3kx8QnSyqNg1VL62XfQ">Module 6</a></li>
+												<li><a href="https://drive.google.com/open?id=1OllTn-2zUKemhUHRZoq7Jv3VE7sZrTCz">Miscellaneous</a></li>
+											</ul>
+                                
+                            			</div>
+                        			</div>
+                    			</div>
+                   			 	<div class="content-box shadow bg-default mb-20">
+                        			<a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion5_0--1" data-parent="#desc_accordion5_0-accordion" aria-expanded="false" aria-controls="desc_accordion5_0--1"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">SS</strong></a>
+                        			<div id="desc_accordion5_0--1" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+											<ul>
+												<li><a href="https://drive.google.com/open?id=11feEUnG6xt7QRbTtQONBD6aButRNqz-n">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=11k0nxbELEXSCwN4vEK4LvwE-g3auGt6m">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=11Wi9k_5YYrU4ihC8kZBMbHSPio4x8otu">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=11fO2pp67hktwV1qcPeX9Dkkeg26M2_Cs">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=11tWN7zgd06nJ9DThs9Vu1Is9-G5X754v">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=11sbqexC-vWh9uSVVfm_V7n4snBPrU17n">Module 6</a></li>
+											</ul>
+
+                           			  </div>
+                        			</div>
+                    			</div>
+                    			<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion5_0--2" data-parent="#desc_accordion5_0-accordion" aria-expanded="false" aria-controls="desc_accordion5_0--2"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">MM</strong></a>
+                        			<div id="desc_accordion5_0--2" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=10HSUzt_3B_Df5sn1L9wrRJmRm1v0Q1BP">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=10NO3xacUJWZ5HvWoq6GvVYFpHfa1FUUo">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=10JGKK1P5B7S6p84L742L1M7Us6mkDmnn">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=106n00FIA-yHkc-t_ATLL54naZx92Cn5S">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1-yR94fPLjnX1v2XQb1ZYHRfwLmn-STV4">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=10DPdQDLPCYxXvkAJU_cjKK-pXjMGQMP_">Module 6</a></li>
+												<li><a href="https://drive.google.com/open?id=1QU6rFtrJ-npPev0d-22HayymQRGmxvNx">Miscellaneous</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion5_0--3" data-parent="#desc_accordion5_0-accordion" aria-expanded="false" aria-controls="desc_accordion5_0--3"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">DC</strong></a>
+                        			<div id="desc_accordion5_0--3" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=11HeEMWTNnk6zZ6cyJT0zEEJN86-rAoQT">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=11Ho-E6HRYW7NLiE4wWfGnnuDIM7h6wWF">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=11E7Z1HFuL9X2EuXA4Y6WV1-cBkP9xZJ8">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=10n4WnOcFjigJ55l1uLBUWoN3uIrb7Yax">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=10jNfbPPmGFANaXVSrDc810QcvgH6nGfo">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=11C5uRdKcT59G4I0XyHMZrwCf7vYZrQU1">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion5_0--4" data-parent="#desc_accordion5_0-accordion" aria-expanded="false" aria-controls="desc_accordion5_0--4"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">GTC</strong></a>
+                        			<div id="desc_accordion5_0--4" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=129ojgHkByzpPoJT4s3Zf9-bxpLRP86MB">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=121Kuxc8ZDx76H9MzfcU6y5Pw5KUXhehm">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=128ARHn_Y1MDA1xMekbO_7ulMDpoIZN10">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=121KUkMu3lhV7k5iEkpw2brr6XwqvI0se">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=12--jXg2AlIAir5KqGUmN66E7Df6IeFer">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=129noNdvj7YunWSA6n_pycGVpXDODjTch">Module 6</a></li>
+												<li><a href="https://drive.google.com/open?id=11zMkh_YlZjL_ouLGsh0ug7G5bpm1gtF5">Miscellaneous</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion5_0--5" data-parent="#desc_accordion5_0-accordion" aria-expanded="false" aria-controls="desc_accordion5_0--5"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">SOFT COMPUTING</strong></a>
+                        			<div id="desc_accordion5_0--5" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=11Hy3Ylo0Pb-B1EuRLtyVbgW7nt6hveAQ">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=11KRuJGLIFrq1d17AwqGpH9N9EeYkTZdg">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=15kZvUC42x-S3G6zIV4uLMpg6GRWG4r7H">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1Ym9oze2x93rpqNET3REZyWuOgiIw7P1F">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1JY5uklxLvkOz2o19ftFWxPjNn_047r7G">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=129-Pr4p6HkEsvFnHA7MOrXjTPaqsNUOO">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+						
+                			</div>
+            			 	</div>
+        					</div>
+    						</div>
+    						<div class="bg-wrap">
+        					<div class="bg"></div>
+    						</div>
+							</section>
+							</div> </div>&nbsp;
+					<div class="col-12" style="z-index: 10;"> <a data-toggle="collapse" href="#Sem6" role="button" aria-expanded="false" aria-controls="Sem6" class="btn btn-lg dark fx-btn-pill fx-btn-zoom btn-danger fx-btn-shadow fx-btn-wave" style="overflow: visible;"><strong>Semester 6</strong></a> 
+					    <div class="collapse" id="Sem6">
+						  <section id="desc-accordion6" class="pt-100 pb-100 light">
+    						<div class="container">
+        					<div class="row">
+            				<div class="col-12">
+                			<div class="accordion" id="desc_accordion6_0-accordion" data-children=".content-box">
+                    			<div class="content-box shadow bg-default mb-20">
+                        			<a class="padding-x2 d-block light" data-toggle="collapse" href="#desc_accordion6_0--0" data-parent="#desc_accordion6_0-accordion" aria-expanded="false" aria-controls="desc_accordion6_0--0"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z" class=""></path></svg><strong class="">DAA</strong></a>
+                        			<div id="desc_accordion6_0--0" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=16pHdqhn8Z27KynJ1gmGNOe2CjrKd9gfB">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=16r1SI8vXZL22bk3VO3STaOfab5VG9knk">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=16kO8Esa4AKvJ93iwuTf_0lQpZ-CztXEO">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=16jYogrzRO3cKNftcCqIiJAMk1sbR8olu">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=16il4Lluik1vhFMTTgr8kXmSHJHbVRgKu">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=16oYqUCjd0uboLBekQdmvkpZWLyB3cQQ8">Module 6</a></li>
+											</ul>
+                                
+                            			</div>
+                        			</div>
+                    			</div>
+                   			 	<div class="content-box shadow bg-default mb-20">
+                        			<a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion6_0--1" data-parent="#desc_accordion6_0-accordion" aria-expanded="false" aria-controls="desc_accordion6_0--1"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">CD</strong></a>
+                        			<div id="desc_accordion6_0--1" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+											<ul>
+												<li><a href="https://drive.google.com/open?id=1AJytT1CC5IFeEndvWqB_xkzut5IrqlFz">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1AHFie3gkKdaWlsjyatbGnqSb-I1JI2oD">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1AA_FjWqDTjYttIrZ2f54viRkaemduRsZ">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1AHdkq0fZZ3nsYZLcU1-nfO6DXXTJZEjg">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1AUQMIWSKyzpEACIvvXNhyawP8jYQFaUe">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1A7u6Pqma9egejd2mKXpHrfgxoyYngjK7">Module 6</a></li>
+											</ul>
+                           			  </div>
+                        			</div>
+                    			</div>
+                    			<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion6_0--2" data-parent="#desc_accordion6_0-accordion" aria-expanded="false" aria-controls="desc_accordion6_0--2"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">CN</strong></a>
+                        			<div id="desc_accordion6_0--2" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=18yyb8WY6hBdpjwHZzJBBaicLOOpGHDTS">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1993QN2UxVwa-Ab2ul7QRVbA8FS_MW_fq">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=18Y_3jiOkmE3B45A4UrcOykkAqpTmAcG1">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=18U3nUYae-m8YAY-sCE1TycyHKzT23iau">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=18TtB_BvUrqBC_i45bx1EZnDir-KRsvZ0">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=18XefLuZx96EYJaMScwV6hzVwqj0k5w0x">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion6_0--3" data-parent="#desc_accordion6_0-accordion" aria-expanded="false" aria-controls="desc_accordion6_0--3"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">SEPM</strong></a>
+                        			<div id="desc_accordion6_0--3" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=18htjVH86GMaobLe76K6PTKBTc8uELi7d">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=18do2ekuRVkLJuUT7YsExveRgwZRCdmlG">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=18jrsMmVcqSI6YpbafTeovL3CBsH_coOo">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=18irr8xVmh4LCa91Zn5K6phntCh5cQe7e">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=18rxYVWfpZaMO5pX9hl5wk1dWcocB0AB8">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=18PQ9JIEGt4M-CLzd9l-3ZUfsvZeGmim-">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion6_0--4" data-parent="#desc_accordion6_0-accordion" aria-expanded="false" aria-controls="desc_accordion6_0--4"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">POM</strong></a>
+                        			<div id="desc_accordion6_0--4" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=17584gSTuzOoqqNQrFvXGv_QB4h1uRwVh">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=172XLTip5yLKsWJBDHR_KHqVe_5Qpp8KO">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1758-24N-fSB0cQaXAQca8GdFY6YGCkqg">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1728fSp0B5obBaJUxSsSCrSPDjQiExi0U">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=17-590P4dMwJ0WnDw_EHmsodAKmW0b90h">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=16tGGyFyH3awxkrNYy_N8HYokQ8iVwZTx">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion6_0--5" data-parent="#desc_accordion6_0-accordion" aria-expanded="false" aria-controls="desc_accordion6_0--5"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">WEB TECHNOLOGY</strong></a>
+                        			<div id="desc_accordion6_0--5" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=17U0FBlWIIXks_9SyKeEIoys4U3Uq4_m3">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=17qR3GRkxi7gS1i-koBuu_9lEf0Nl_xHI">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=17QoBeFoACF8InGtmSeDE3FwhGpVxZzZb">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=17JmVFKaECFCputx16R5selYwo4puLe1-">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=17C3jGrUI4aeU9w38bjLNbQWnBArpmLOr">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=17OdN1uXDsFenSzuy7rXsXjJV5QwLdbkm">Module 6</a></li>
+												<li><a href="https://drive.google.com/open?id=19a5tf97RZHh_TUjz1R5JbZyjnkcXv6DM">Miscellaneous</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion6_0--6" data-parent="#desc_accordion6_0-accordion" aria-expanded="false" aria-controls="desc_accordion6_0--6"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg>
+                       			  <strong>MOBILE COMPUTING</strong><br>
+                       			  </a>
+                        			<div id="desc_accordion6_0--6" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=18DoULPrl1Ijd6b0bjC6YZGu50SaGdTLi">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=18-BvgKgeDvM-FPDUH4Nvc7ISj_v-WpgQ">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=188r7mFlQvq3cJkpAvo2Ui_kjpBtaHkJs">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=17yvoxTjgj-CvjkQevpFY8YUCFXPrJ3lc">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=18Mc-90h6K7Em6P2i96DCIIK15hJ_i8It">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1866eScs8AG3VG2VVAa94CpXbq_OkQ8HE">Module 6</a></li>
+											</ul>
+                           			  </div>
+                       			  </div>
+                   			  </div>
+							
+                			</div>
+            			 	</div>
+        					</div>
+    						</div>
+    						<div class="bg-wrap">
+        					<div class="bg"></div>
+    						</div>
+							</section>
+							</div> </div>&nbsp;
+					<div class="col-12" style="z-index: 10;"> <a data-toggle="collapse" href="#Sem7" role="button" aria-expanded="false" aria-controls="Sem7" class="btn btn-lg dark fx-btn-pill fx-btn-zoom btn-danger fx-btn-shadow fx-btn-wave" style="overflow: visible;"><strong>Semester 7</strong></a> 
+					    <div class="collapse" id="Sem7">
+						  <section id="desc-accordion7" class="pt-100 pb-100 light">
+    						<div class="container">
+        					<div class="row">
+            				<div class="col-12">
+                			<div class="accordion" id="desc_accordion7_0-accordion" data-children=".content-box">
+                    			<div class="content-box shadow bg-default mb-20">
+                        			<a class="padding-x2 d-block light" data-toggle="collapse" href="#desc_accordion7_0--0" data-parent="#desc_accordion7_0-accordion" aria-expanded="false" aria-controls="desc_accordion7_0--0"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z" class=""></path></svg><strong class="">CG</strong></a>
+                        			<div id="desc_accordion7_0--0" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=1G-h6G7oNUQEa9KO8naxFkmhyMQkr6RIb">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1FuKaKelnmG5tXHxNtGIRViv-hlzNjmHX">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1Fz3QhLd8s_lTQykoIwFmsaPetxbkZ2kJ">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1G6mpIHCHSsBae4kBLpN9L_MZLYw4lQDM">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1GDYoskEc6tB8ZZLogDS_4wsjamMW-5WX">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1Fx_PYmiMdX5ino2ULG_JkWSDBxYHuFbN">Module 6</a></li>
+											</ul>
+                                
+                            			</div>
+                        			</div>
+                    			</div>
+                   			 	<div class="content-box shadow bg-default mb-20">
+                        			<a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion7_0--1" data-parent="#desc_accordion7_0-accordion" aria-expanded="false" aria-controls="desc_accordion7_0--1"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">PP</strong></a>
+                        			<div id="desc_accordion7_0--1" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+											<ul>
+												<li><a href="https://drive.google.com/open?id=1EQnnKisV1hYit7dSzx-xDTPx5gQOX7M9">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1ES1OkVXkZw7-PGf41XG3pARzqUBkchgG">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1EzUFuMULq67ilNPWFXVw4Hbce54kxr38">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1FAIJqKX_6EBSsGQztyJcN0CRBs-DlLOp">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1F6lSkzVZaQqPAb3gaPlMzBP3cQ3wZrQQ">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1EwqeatSNejU3b5XMjCZGh4N5oTNxSjA6">Module 6</a></li>
+											</ul>
+
+                           			  </div>
+                        			</div>
+                    			</div>
+                    			<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion7_0--2" data-parent="#desc_accordion7_0-accordion" aria-expanded="false" aria-controls="desc_accordion7_0--2"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">CSA</strong></a>
+                        			<div id="desc_accordion7_0--2" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=1Kce1nyRzFzVmBTdGK98FnnM3NhAQDcrx">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1KPrCYUOmENGRZbmooSQBjl3SgZgOTfGL">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1KSBVYuZW6NkVtHvfzeRm05wXg-Cnasmd">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1KZHAi3xEq5qq_C0Sii_3nmZv8l-1kiIR">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1KhT2HamJIM7AZ0276834i45CnkMpokG6">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1KSqS2hHYa1PZUUiAGPU81neje5WbHHK4">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion7_0--3" data-parent="#desc_accordion7_0-accordion" aria-expanded="false" aria-controls="desc_accordion7_0--3"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">DC</strong></a>
+                        			<div id="desc_accordion7_0--3" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=1KLxumpBTqMGNDn8SOU4xJPoi2PjdIl59">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1JljZtWGmgDFlsmPDX08e2OVpI90ZQbPk">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1KJIIEs5keMQB0KURpkCJeBh_hUhU_luO">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1Kb-nPBl11SxcCbXYsJUKCXpfgyQnelJ4">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1KIDuO-Noo4b5vc88awvDwtOiJc85JiSw">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1KNErESYpDoV4Haz2CSBcFUEI-InuAZg0">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion7_0--4" data-parent="#desc_accordion7_0-accordion" aria-expanded="false" aria-controls="desc_accordion7_0--4"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">CNS</strong></a>
+                        			<div id="desc_accordion7_0--4" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=1HEPCOKIUbRFXQgJTI0yeOh5wEPg0JCDo">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1HEPCOKIUbRFXQgJTI0yeOh5wEPg0JCDo">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1HIH6NkI_apQ2XFcNswHZPGsbxo9JiSEQ">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1HIH6NkI_apQ2XFcNswHZPGsbxo9JiSEQ">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1HN3ZRyo_DMbRYk4f24cG-inWu-sKSxF9">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1HQqhtjRa6_BdSRz-DWKCXg3hEiRJJALY">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion7_0--5" data-parent="#desc_accordion7_0-accordion" aria-expanded="false" aria-controls="desc_accordion7_0--5"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">DIP</strong></a>
+                        			<div id="desc_accordion7_0--5" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="">Module 1</a></li>
+												<li><a href="">Module 2</a></li>
+												<li><a href="">Module 3</a></li>
+												<li><a href="">Module 4</a></li>
+												<li><a href="">Module 5</a></li>
+												<li><a href="">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>								
+								<div class="content-box shadow bg-default mb-20">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion7_0--8" data-parent="#desc_accordion7_0-accordion" aria-expanded="false" aria-controls="desc_accordion7_0--8"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg>
+                       			  <strong>ML</strong><br>
+                       			  </a>
+                        			<div id="desc_accordion7_0--8" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="">Module 1</a></li>
+												<li><a href="">Module 2</a></li>
+												<li><a href="">Module 3</a></li>
+												<li><a href="">Module 4</a></li>
+												<li><a href="">Module 5</a></li>
+												<li><a href="">Module 6</a></li>
+											</ul>
+                           			  </div>
+                       			  </div>
+                   			  </div>								
+                			</div>
+            			 	</div>
+        					</div>
+    						</div>
+    						<div class="bg-wrap">
+        					<div class="bg"></div>
+    						</div>
+							</section>
+							</div> </div>&nbsp;
+					<div class="col-12" style="z-index: 10;"> <a data-toggle="collapse" href="#Sem8" role="button" aria-expanded="false" aria-controls="Sem8" class="btn btn-lg dark fx-btn-pill fx-btn-zoom btn-danger fx-btn-shadow fx-btn-wave" style="overflow: visible;"><strong>Semester 8</strong></a> 
+					    <div class="collapse" id="Sem8">
+						  <section id="desc-accordion8" class="pt-100 pb-100 light">
+    						<div class="container">
+        					<div class="row">
+            				<div class="col-12">
+                			<div class="accordion" id="desc_accordion8_0-accordion" data-children=".content-box">
+                    			<div class="content-box shadow bg-default mb-20">
+                        			<a class="padding-x2 d-block light" data-toggle="collapse" href="#desc_accordion8_0--0" data-parent="#desc_accordion8_0-accordion" aria-expanded="false" aria-controls="desc_accordion8_0--0"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z" class=""></path></svg><strong class="">DMWH</strong></a>
+                        			<div id="desc_accordion8_0--0" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="https://drive.google.com/open?id=1O4EZzxt2iuSIT-n7-qAk7T6IIJQjfwj5">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1OEnAjXvu4URJOsqwAH2DgbTKQvUaDfV7">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1O3jN9ci6awWJ0_MybAgHMQpUck33QqHJ">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1Nrd90NV2ib5v8s0yF3nBD_cfg_ll6lu9">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1NpH5cDX97wX3178n4-r6BAd3X7NvBr-R">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1NzDWOf2nz6MkN45KkYuZ648zVN_Knj4b">Module 6</a></li>
+											</ul>
+                                
+                            			</div>
+                        			</div>
+                    			</div>
+                   			 	<div class="content-box shadow bg-default mb-20">
+                        			<a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion8_0--1" data-parent="#desc_accordion8_0-accordion" aria-expanded="false" aria-controls="desc_accordion8_0--1"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">ES</strong></a>
+                        			<div id="desc_accordion8_0--1" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+											<ul>
+												<li><a href="https://drive.google.com/open?id=1MVaV8b_LLPSe47trNVwfVaRoE9ydQ4fp">Module 1</a></li>
+												<li><a href="https://drive.google.com/open?id=1Mf-k-GXsZEwvWXjuV17d8_H3QVNEbMDJ">Module 2</a></li>
+												<li><a href="https://drive.google.com/open?id=1MPnQvME03j3nyce1CdI3Hl7yFCL4o1sX">Module 3</a></li>
+												<li><a href="https://drive.google.com/open?id=1MfhBAXydtc4YCpJym10nLKj0M5_kGkuL">Module 4</a></li>
+												<li><a href="https://drive.google.com/open?id=1Mq3WLy60cBYcajnVmcZMbTPsPaFXsW7C">Module 5</a></li>
+												<li><a href="https://drive.google.com/open?id=1MOXN_9JNeNilVidcHsZzOWcdVF5BI5Cy">Module 6</a></li>
+											</ul>
+
+                           			  </div>
+                        			</div>
+                    			</div>                    			
+								<div class="content-box shadow bg-default">
+                       			  <a class="accordion-header padding-x2 d-block" data-toggle="collapse" href="#desc_accordion8_0--5" data-parent="#desc_accordion8_0-accordion" aria-expanded="false" aria-controls="desc_accordion8_0--5"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary icon-pos-left"><path d="m8 16c-4.418278 0-8-3.581722-8-8s3.581722-8 8-8 8 3.581722 8 8-3.581722 8-8 8zm-1-9v6h2v-6zm0-4v2h2v-2z"></path></svg><strong class="">PIS</strong></a>
+                        			<div id="desc_accordion8_0--5" class="collapse" role="tabpanel">
+                            			<div class="padding-x2 border-top">
+                                			<ul>
+												<li><a href="#">Module 1</a></li>
+												<li><a href="#">Module 2</a></li>
+												<li><a href="#">Module 3</a></li>
+												<li><a href="#">Module 4</a></li>
+												<li><a href="#">Module 5</a></li>
+												<li><a href="#">Module 6</a></li>
+											</ul>
+                            			</div>
+                        			</div>
+                   			  </div>
+                			</div>
+            			 	</div>
+        					</div>
+    						</div>
+    						<div class="bg-wrap">
+        					<div class="bg"></div>
+    						</div>
+							</section>
+							</div> </div>&nbsp;
+						
+                  </div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</header>
+			<footer id="footer-text-logo-social" class="dark text-center pt-10 pb-10">
+    			<div class="container-fluid">
+        			<div class="row align-items-center">
+            			<div class="col-md order-md-3 text-md-right">
+                			<div class="inline-group mb-20 mb-md-0">
+                    
+                    			<svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" class="icon svg-secondary"><path d="m8.54611842 16h-7.66304125c-.48785295 0-.88307717-.3954695-.88307717-.8831324v-14.23379728c0-.48778708.3952863-.88307032.88307717-.88307032h14.23390773c.4876667 0 .8830151.39528324.8830151.88307032v14.23379728c0 .487725-.3954105.8831324-.8830151.8831324h-4.0772165v-6.19608178h2.0797387l.3114113-2.41472301h-2.39115v-1.54164808c0-.69911803.1941355-1.1755439 1.1966615-1.1755439l1.2786739-.00055875v-2.15974763c-.2211418-.0294274-.980176-.09517343-1.8632531-.09517343-1.84357263 0-3.10573228 1.12531866-3.10573228 3.19187953v1.78079226h-2.08507782v2.41472301h2.08507782z" fill="#4460a0" fill-rule="evenodd" class=""></path></svg>
+                    
+                    			<a href="https://www.instagram.com/sfimesce" class="smooth" target="_self"><svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon svg-secondary"><radialGradient id="a" cx="1.163903%" cy="98.836097%" r="139.775349%"><stop offset="0" stop-color="#ffc800"></stop><stop offset=".486454468" stop-color="#ff2a7b"></stop><stop offset="1" stop-color="#a000bc"></stop></radialGradient><path d="m8.00001588 0c2.17265372 0 2.44508882.00920925 3.29837392.04814217.8515067.03883765 1.4330552.17408667 1.9419142.37186335.5260707.20441369.9722115.47796031 1.4169867.92270379.4447435.44477523.7182901.89091598.9227355 1.41698671.197745.50885894.332994 1.09040748.3718316 1.94191421.0389329.85328506.0481422 1.12572022.0481422 3.29840565 0 2.17265372-.0092093 2.44508882-.0481422 3.29837392-.0388376.8515067-.1740866 1.4330552-.3718316 1.9419142-.2044454.5260707-.477992.9722115-.9227355 1.4169867-.4447752.4447435-.890916.7182901-1.4169867.9227355-.508859.197745-1.0904075.332994-1.9419142.3718316-.8532851.0389329-1.1257202.0481422-3.29837392.0481422-2.17268543 0-2.44512059-.0092093-3.29840565-.0481422-.85150673-.0388376-1.43305527-.1740866-1.94191421-.3718316-.52607073-.2044454-.97221148-.477992-1.41698671-.9227355-.44474348-.4447752-.7182901-.890916-.92270379-1.4169867-.19777668-.508859-.3330257-1.0904075-.37186335-1.9419142-.03893292-.8532851-.04814217-1.1257202-.04814217-3.29837392 0-2.17268543.00920925-2.44512059.04814217-3.29840565.03883765-.85150673.17408667-1.43305527.37186335-1.94191421.20441369-.52607073.47796031-.97221148.92270379-1.41698671.44477523-.44474348.89091598-.7182901 1.41698671-.92270379.50885894-.19777668 1.09040748-.3330257 1.94191421-.37186335.85328506-.03893292 1.12572022-.04814217 3.29840565-.04814217zm0 1.44143887c-2.13610246 0-2.38913467.0081613-3.23270238.04664963-.7799921.03556678-1.20358605.16589361-1.48548451.27545198-.37341939.14512515-.63991616.31848143-.91984575.59844276-.27996133.27992959-.45331761.54642636-.59844276.91984575-.10955837.28189846-.2398852.70549241-.27545198 1.48548451-.03848833.84356771-.04664963 1.09659992-.04664963 3.23270238 0 2.13607072.0081613 2.38910292.04664963 3.23267062.03556678.7799921.16589361 1.2035861.27545198 1.4854845.14512515.3734194.31851318.6399162.59844276.9198458.27992959.2799613.54642636.4533176.91984575.5984427.28189846.1095584.70549241.2398852 1.48548451.275452.84347244.0384883 1.09644114.0466496 3.23270238.0466496 2.13622952 0 2.38922992-.0081613 3.23267062-.0466496.7799921-.0355668 1.2035861-.1658936 1.4854845-.275452.3734194-.1451251.6399162-.3184814.9198458-.5984427.2799613-.2799296.4533176-.5464264.5984427-.9198458.1095584-.2818984.2398852-.7054924.275452-1.4854845.0384883-.8435677.0466496-1.0965999.0466496-3.23267062 0-2.13610246-.0081613-2.38913467-.0466496-3.23270238-.0355668-.7799921-.1658936-1.20358605-.275452-1.48548451-.1451251-.37341939-.3184814-.63991616-.5984427-.91984575-.2799296-.27996133-.5464264-.45331761-.9198458-.59844276-.2818984-.10955837-.7054924-.2398852-1.4854845-.27545198-.8435677-.03848833-1.0965999-.04664963-3.23267062-.04664963zm0 2.4504556c2.26884272 0 4.10808962 1.8392469 4.10808962 4.10812141 0 2.26884272-1.8392469 4.10808962-4.10808962 4.10808962-2.26887451 0-4.10812141-1.8392469-4.10812141-4.10808962 0-2.26887451 1.8392469-4.10812141 4.10812141-4.10812141zm0 6.77477223c1.47275033 0 2.66665082-1.19390049 2.66665082-2.66665082 0-1.47278209-1.19390049-2.66668255-2.66665082-2.66668255-1.47278209 0-2.66668255 1.19390046-2.66668255 2.66668255 0 1.47275033 1.19390046 2.66665082 2.66668255 2.66665082zm5.23041202-6.9370774c0 .53019901-.4298182.95998539-.9600172.95998539-.5301673 0-.9599854-.42978638-.9599854-.95998539 0-.53019902.4298181-.96001715.9599854-.96001715.530199 0 .9600172.42981813.9600172.96001715z" fill="url(#a)" fill-rule="evenodd" class=""></path></svg></a>
+                    
+                			</div>
+            			</div>
+            			<div class="col-md order-lg-1 text-md-left" style="z-index: 10;">
+                			<p class="mb-0 text-secondary" style="overflow: visible;">© SFI MESCE Unit Committee<br></p>
+            			</div>
+            			<div class="col-md-auto order-md-2">
+                			<img class="mw-100 mt-md-0" src="img/sfimesce.png" alt="logo" srcset="" height="30">
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</footer>
+		</div>
+		<footer></footer>
+		<div class="modal-container"></div>
+		
+		
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCByts0vn5uAYat3aXEeK0yWL7txqfSMX8"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.smooth-scroll.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/innerpage.js"></script>
+	</body>
+</html>
